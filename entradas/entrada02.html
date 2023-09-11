@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://unpkg.com/@sakun/system.css" />
+  <link rel="stylesheet" href="../css/style.css" />
+  <title>Deep Mac M1</title>
+</head>
+<body>
+    <div class="window shadow">
+      <div class="title-bar">
+        <button aria-label="Close" class="close" onclick="back()"></button>
+        <h1 class="title">DEEP MAC M1</h1>
+      </div>
+      <div class="separator"></div>
+        <div class="entrada">
+          <h2>HomeBrew</h2>
+          <h5>Instalación y uso de HomeBrew, Dec 14, 2022</h5>
+          <p><b>¿ Que es el Homebrew ?</b></p>
+          <a href="https://brew.sh" target="_self" rel="noopener noreferrer"><img class="fakeimg" src="../img/homebrew.png" alt="imagen Hombrew"></a>
+          <p>Homebrew es un instalador de paquetes para macOS</p>
+          <p><b>¿ Para que necesito un instalador de paquetes ?</b></p>
+          <p>Siento decirte una cosa, el AppStore de Apple para Mac es, digamoslo así,
+            limitado. Pues muchas veces para programas específicos puede ser que no los
+             encuentres ó...¡Oh, sorpresa! desde la página oficial del programa solo lo puedas instalar con el instalador Homebrew.</p>
+          <p><b>¿ Me pueden entrar virus, desconfigurar el ordenador, ralentizarlo...en fin si puede ser malo para el MAC ?</b></p>
+          <p>Rotundamente <b>NO</b>, por varias razones...</p>
+          <p>El instalador de paquetes esta mantenido por una gran comunidad, puedes verlo
+             en los enlaces que encontrarás al final de su <a href="https://brew.sh/"><b>página web.</b></a></p>
+          <p>El instalador optimiza la instalación, es decir instala de forma automática en tu equípo la versión que tenga tu Mac,
+             si es chip Intel, pues la versión Intel, si es el chip Apple Silicon, pues el del Silicon, 
+             también el del sistema operativo que tengas, Big Sur, Monterey, Ventura... 
+             esto es una gran ventaja porque busca por ti el programa y versión de programa,
+              lo cual, reconozcamoslo, a veces buscarlo e instalarlo por tu cuenta es un engorro.</p>
+          <p>Instala todos los paquetes en su propio directorio, así lo explica en su página principal,
+             por lo que los archivos de un programa instalado, no están bailando por ahí, por cualquier directorio.</p>
+          <p>Su instalación y desisntalación es sencilla, así como la instalación y desisntalación de los paquetes también.</p>
+          <p>No te asustes si te da aversión o respeto usar el terminal, pero ya verás que es más sencillo de lo que parece, al final le pillaras el gustillo a usarlo...</p>
+          <p>Bueno dicho todo esto remángate y vamos a ponernos manos a la obra</p>
+          <hr>
+          <h5><b>Instalación de Homebrew</b></h5>
+          <p>En este Video vamos ha explicar :</p>
+          <p>- Como instalar Homebrew <i>(Video Inicio - 4:00)</i>, ejecutar en el terminal -> <b>/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"</b></p>
+          <p>- Ver que comandos y ayuda podemos usar en Homebrew -> <b>brew help</b></p>
+          <p>- Buscar el nombre del paquete ejecutando en el terminal -> <b>brew search nombre_del_paquete</b> pero tambien hay otra forma y es desde su <a href="https://formulae.brew.sh"><b>buscador</b></a> mi recomendación es que cuando quieras buscar o instalar un programa (cualquier programa), lo busques por aquí primero y si lo tienes instálalo desde el Homebrew.</p>
+          <p>- Como instalar y desinstalar paquetes cask <i>(Video 4:00 - 6:43)</i>, ejecutar en el terminal -> <b>brew install --cask nombre_del_paquete</b> -> ejemplo: brew install cask telegram</p>
+          <p>- Como instalar paquetes formulae, por ejemplo en el video instalaremos composer <i>(Video 6:43 - 12:06)</i>, ejecutar en el terminal -> <b>brew install nombre_del_paquete</b> -> ejemplo: brew install composer</p>
+          <p>- Ver que paquetes tenemos instalados ejecutamos -> <b>brew list</b></p>
+          <p>- Actualizar la lista de paquetes de HomeBrew -> <b>brew update</b></p>
+          <p>- Actualizar HomeBrew y los paquetes instalados -> <b>brew upgrade</b></p>
+          <p>- Como <a href="https://github.com/homebrew/install#uninstall-homebrew"><b>desinstalar Homebrew</b></a> <i>(Video 12:06 - Fin)</i> ejecutar en el terminal -> <b>/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/uninstall.sh)"</b> </p>
+          <iframe width="560" height="315" src="https://www.youtube.com/embed/bsVDEecB5hE?si=VIgr2db__Fuat0zs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+          <p>Pagina oficial de <a href="https://brew.sh/"><b>Homebrew.</b></a></p>
+          <p>Espero que os haya gustado y te animo a que busques e instales aplicaciones desde Homebrew como spotfy, chrome, etc...</p>
+        </div>
+    </div>
+</body>
+<script src="../js/acciones.js"></script>
+</html>

@@ -1,0 +1,187 @@
+* {
+  box-sizing: border-box;
+}
+
+.window{
+  background-color: #FDFEFE;
+  margin: 0;
+}
+
+body {
+  font-family: Arial;
+  padding: 20px;
+
+}
+
+/* Header/Blog Title */
+.header {
+  padding: 30px;
+  font-size: 40px;
+  background: white;
+  border: 1px solid black;
+  margin: 10px;
+  text-align: center;
+  -webkit-text-stroke: 2px black;
+  color: white;
+  word-wrap: break-word;
+  background-image: url(../img/pexels-pixabay-434346.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  /* filter: grayscale(90%); */
+}
+
+/* Create for p tag */
+p {
+  font-family: Chicago;
+}
+.entrada p {
+  font-family: Chicago_12;
+}
+h2 {
+  word-wrap: break-word;
+}
+title-bar button.resize{
+  background-size: 100%, 100%;
+}
+/* Create two unequal columns that floats next to each other */
+/* Left column */
+.leftcolumn { 
+  float: left;
+  width: 75%;
+  padding-left: 10px;
+}
+
+/* Right column */
+.rightcolumn {
+  float: left;
+  width: 25%;
+  padding-left: 20px;
+  padding-right: 10px;
+}
+
+/* Fake image */
+.fakeimg {
+  background-color: #aaa;
+  width: 100%;
+  margin: auto;
+  filter: grayscale(100%);
+}
+.fakeimg > a{
+  color: white;
+  text-align: center;
+  text-decoration: none;
+}
+.personal{
+  border-radius: 3px;
+  border: 1px solid black;
+  max-width: 350px;
+}
+
+/* Add a card effect for articles */
+.card {
+  background-color: white;
+  padding: 20px;
+  margin-top: 20px;
+  border: 1px solid black;
+}
+
+.card a{
+  text-decoration: none;
+}
+
+.card a img{
+  width: 50%;
+  margin-left: 25%;
+}
+.entrada{
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+}
+.shadow{
+  box-shadow: 10px 10px 5px lightgray;
+}
+/* entradas */
+.entrada a img{
+  width: 20%;
+  margin-left: 1%;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Footer */
+
+.footer {
+  padding: 20px;
+  text-align: center;
+  background: #ddd;
+  margin-top: 20px;
+}
+.informacion-footer a{
+  text-decoration: none;
+}
+iframe{
+  border: 1px solid black;
+  padding: 5px;
+  
+}
+.footer nav{
+        
+  margin: 0.2em 0;
+}
+
+.footer nav ul{
+  padding-inline-start: 0;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display:flex;   
+}
+.footer nav ul li{
+  text-align: center;
+  flex-direction:row;
+  flex-grow: 1;
+}
+.footer nav ul li a{
+  background-color:white;
+  border: 1px solid black;
+  border-radius:50%;
+  box-shadow: 0 0 3px black ;
+  text-decoration: none;
+  padding: 10px;
+  color:black;
+}
+.footer nav ul li a:hover{
+  background-color: lightgray;
+
+}
+/* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 800px) {
+  .card{
+    margin:10px;
+  }
+
+  .card a img{
+    width: 100%;
+    margin: 0;
+  }
+  
+  .container {
+    width: 100%;
+    margin: auto;
+  }
+  .leftcolumn, .rightcolumn { 
+    width: 100%;
+    padding: 0;
+  }
+
+  iframe{
+    width: 100%;
+    margin: auto;
+  }
+}

@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://unpkg.com/@sakun/system.css" />
+  <link rel="stylesheet" href="../css/style.css" />
+  <title>Deep Mac M1</title>
+</head>
+<body>
+    <div class="window shadow">
+      <div class="title-bar">
+        <button aria-label="Close" class="close" onclick="back()"></button>
+        <h1 class="title">DEEP MAC M1</h1>
+      </div>
+      <div class="separator"></div>
+        <div class="entrada">
+          <h2>Maquina Virtual UTM</h2>
+          <h5>Instalación de UTM , Jun 25, 2023</h5>
+          <a href="https://mac.getutm.app" target="_self" rel="noopener noreferrer"><img class="fakeimg" src="../img/Utm_mv.jpeg" alt="UTM logo"></a>
+          <p><b>¿ Que es UTM ?</b></p>
+          <p>UTM es una Máquina Virtual para macOS</p>
+          <p><b>¿ Que tiene de especial UTM ?</b></p>
+          <p>Para Virtualizar Sistemas Operativos en un MAC con M1, solo lo podemos realizar con Parallels que es de pago y muy caro, con VMWare que te tienes que registrar, con VirtualBox para ARM esta en fase Beta, no funciona nada bien y con Qemu que es muy complicado de usar.</p>
+          <p>La Máquina Virtual UTM es la forma gráfica de la máquina virtual QEMU. QEMU es una máquina virtual Open Source que funciona por comandos o sea por terminal, es una máquina muy completa y para usuarios muy avanzados.</p>
+          <p>Con UTM es todo más sencillo, es gratis pues te la puedes descargar de <a href="https://github.com/utmapp/UTM/releases/latest/download/UTM.dmg"><b>aquí</b></a>. Página principal de <a href="https://mac.getutm.app"><b>UTM</b></a>. si escoges descargartelo, tendras que ser tu el que te lo actualices.</p>
+          <p>También puedes descargartelo a través de <a href="https://apps.apple.com/es/app/utm-virtual-machines/id1538878817?mt=12"><b>AppStore</b></a>, es de pago, solo un pago, pero mantendrás actualizado UTM de forma automática y ayudas a los desarrolladores a mantener UTM.</p>
+          <p><b>¿ Que podemos virtualizar ?</b></p>
+          <p>Con la máquina UTM podemos virtualizar muchos sistemas operativos. Los sistemas operativos basados en arquitecturas ARM funcionaran de lujo, pero las arquitecturas basadas en Intel, puede que te den problemas y debes de tener cuidado porque una vez me ha pasado que en la instalación (de un sistema opertaivo muy friky basado en Intel 32) me ha sobre calentado el MacBook y tuve que abortar la instalación.</p>
+          <p><b>¿ Que Sistemas Operativos he llegado a virtualizar?</b></p>
+          <p>Los SO han sido desde Windows 2.0.3, Windows XP, Windows 10 ARM, Windows 11 ARM, Ubuntu Server ARM, Kali ARM y Debian ARM, Windows Server 2008 R2,...</p>
+          <p><b>¿ Es dificil de usar?</b></p>
+          <p>No, pero si vienes de VirtualBox te costará un poco más entender como funciona, las instalaciones son un poco más complicadas pero una vez que aprendas creo que no querras usar otro.</p>
+          <p>Bueno, dejemos de hablar y pongámosnos manos a la obra</p>
+          <h4><b>Instalación de UTM</b></h4>
+          <p>Primero descargamos el archivo UTM.dmg de la página principal de <a href="https://mac.getutm.app"><b>UTM</b></a> o si quieres desde el enlace directo de la <a href="https://github.com/utmapp/UTM/releases/latest/download/UTM.dmg"><b>página</b></a>.</p>
+          <p>Dejo <a href="../UTM/Instalacion de UTM.pdf" target="_self"><b>aquí</b></a> las instrucciones de la instalación.</p>
+          <p>Dejo <a href="../UTM/Actualizacion_UTM.pdf" target="_self"><b>aquí</b></a> las instrucciones de la actualización de forma manual.</p>
+          <p>Dejo <a href="../UTM/UTM ajustes.pdf" target="_self"><b>aquí</b></a> la guía de los Ajustes.</p>
+        </div>
+    </div>
+</body>
+<script src="../js/acciones.js"></script>
+</html>

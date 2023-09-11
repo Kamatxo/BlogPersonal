@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://unpkg.com/@sakun/system.css" />
+  <link rel="stylesheet" href="../css/style.css" />
+  <title>Deep Mac M1</title>
+</head>
+<body>
+    <div class="window shadow">
+      <div class="title-bar">
+        <button aria-label="Close" class="close" onclick="back()"></button>
+        <h1 class="title">DEEP MAC M1</h1>
+      </div>
+      <div class="separator"></div>
+        <div class="entrada">
+          <h2>Sistemas Operativos</h2>
+          <h5>Sistemas Oprativos para UTM, 1 July 2023</h5>
+          <p><b>¿ Sistemas Operativos (SO) ?</b></p>
+          <p>UTM como todas las Máquinas Virtuales necesitan de una imagen de disco de un sistema opertaivo donde poder arrancar e instalarlo.</p>
+          <p>Los archivos de imágenes pueden ser de diferentes tipos: *.iso, *.qcow2, *.vdi, etc.. dejo <a href="https://www.qemu.org/docs/master/system/images.html#disk-image-file-formats" target="_self"><b>aquí</b></a> el enlace con la información, aunque aparezca qemu, es lo mismo.</p>
+          <p><b>¿ De donde podemos obtener los discos para instalar los sistemas operativos ?</b></p>
+          <p>Qemu nos brinda la posibilidad de poder descargarnos por ejemplo, el Ubuntu (que es la página de descarga de Ubuntu ARM Server). Tambien descargarnos archivos de UTM, que al final no son mas que los ajustes de una máquina virtual (por ejemplo esta para el Windows XP entre otros)</p>
+          <p>Los sistemas Operativos Ubuntu y Windows ARM podemos descargarlos de las páginas oficiales</p>
+          <h6>Ubuntu Server ARM</h6>
+          <a href="../UTM/Descarga de Ubuntu.pdf" target="_self" rel="noopener noreferrer"><img class="fakeimg" src="../img/Ubuntu_HTML.jpeg" alt="Ubuntu"></a>
+          <p>Guia para descargar de de páginas oficiales <a href="../UTM/Descarga de Ubuntu.pdf" target="_self"><b>Ubuntu ARM</b></a></p>
+          <p><b>¿ Porque descargar la versión ARM64 y no el x64 ?</b></p>
+          <p>La versión ARM, aunque es más complicada de instalar, al coincidir la arquitectura con la de tu equipo (el chip de Apple M1 es aqruitectura ARM64) es mas fluido (en AMD es muy lento) y es mucho más eficiente que la versión x64.</p>
+          <p>En todo caso si quieres descargarte la versión oficial de Ubuntu x64, te dejo aquí la <a href="../UTM/Descarga de Ubuntu AMD.pdf" target="_self"><b>guía</b></a> pues tendrás que hacer una comprobación por si el archivo no esta corrupto.</p>
+          <h6>Windows 11 ARM</h6>
+          <a href="../UTM/Descarga de Windows ARM.pdf" target="_self" rel="noopener noreferrer"><img class="fakeimg" src="../img/Windows_HTML.jpeg" alt="Windows"></a>
+          <p>Si lo que queremos es intalar windows podemos hacerlo desde la página oficial de Windows Insider.</p>
+          <p>Dejo aquí la guía de descarga de <a href="../UTM/Descarga de Windows ARM.pdf" target="_self"><b>Windows ARM</b></a></p>
+          <h6>CrystalFetch</h6>
+          <a href="../UTM/Descargar_CrystalFech.pdf" target="_self" rel="noopener noreferrer"><img class="fakeimg" src="../img/CrystalFech.jpeg" alt="CrystalFech"></a>
+          <p>Tambien podemos descargalo desde la App CrystalFetch</p>
+          <p>Dejo aquí la guía de descarga de <a href="../UTM/Descargar_CrystalFech.pdf" target="_self"><b>Windows ARM por CrystalFecth</b></a></p>
+          <h6>Internet Archive</h6>
+          <a href="../UTM/Descarga de Internet Archive.pdf" target="_self" rel="noopener noreferrer"><img class="fakeimg" src="../img/Internet_Archive_HTML.jpeg" alt="logo Ubuntu"></a>
+          <p>Restos de sistemas podemos descargarlos de la página <a href="https://archive.org" target="_blank"><b>Internet Archive</b></a> pero aquí debemos de hacer una comprobación antes de instalarla para saber que el archivo no está corrupto</p>
+          <p>Dejo aquí la guía de descarga de <a href="../UTM/Descarga de Internet Archive.pdf" target="_self"><b>Inernet Archive</b></a></p>
+          <p></p>
+        </div>
+    </div>
+</body>
+<script src="../js/acciones.js"></script>
+</html>

@@ -24,9 +24,10 @@ body {
   -webkit-text-stroke: 2px black;
   color: white;
   word-wrap: break-word;
-  background-image: url(../img/pexels-pixabay-434346.jpg);
+  background-image: url(../img/cabecera.png);
   background-repeat: no-repeat;
   background-size: cover;
+  background-position: 50% 35%;
   /* filter: grayscale(90%); */
 }
 
@@ -167,6 +168,11 @@ iframe{
   }
 
   .card a img{
+    width: 100%;
+    margin: 0;
+  }
+
+  .entrada a img{
     width: 100%;
     margin: 0;
   }

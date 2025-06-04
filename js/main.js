@@ -211,8 +211,8 @@ function agregarControlesPaginacion(posts, position = "bottom") {
   const izquierdaImg = document.createElement("img");
   izquierdaImg.src =
     paginaActual === 1
-      ? "../icon/scrollbar-left-deactivate.svg"
-      : "../icon/scrollbar-left.svg";
+      ? "./icon/scrollbar-left-deactivate.svg"
+      : "./icon/scrollbar-left.svg";
   izquierdaImg.alt = "Página anterior";
   izquierdaImg.style.height = "26px";
   izquierdaImg.style.width = "22px";
@@ -232,13 +232,13 @@ function agregarControlesPaginacion(posts, position = "bottom") {
     }
   };
   btnIzquierda.addEventListener("mouseover", () => {
-    izquierdaImg.src = "../icon/scrollbar-left-active.svg";
+    izquierdaImg.src = "./icon/scrollbar-left-active.svg";
   });
   btnIzquierda.addEventListener("mouseout", () => {
     izquierdaImg.src =
       paginaActual === 1
-        ? "../icon/scrollbar-left-deactivate.svg"
-        : "../icon/scrollbar-left.svg";
+        ? "./icon/scrollbar-left-deactivate.svg"
+        : "./icon/scrollbar-left.svg";
   });
   paginacion.appendChild(btnIzquierda);
 
@@ -273,8 +273,8 @@ function agregarControlesPaginacion(posts, position = "bottom") {
   const derechaImg = document.createElement("img");
   derechaImg.src =
     paginaActual === totalPaginas
-      ? "../icon/scrollbar-right-deactivate.svg"
-      : "../icon/scrollbar-right.svg";
+      ? "./icon/scrollbar-right-deactivate.svg"
+      : "./icon/scrollbar-right.svg";
   derechaImg.alt = "Página siguiente";
   derechaImg.style.height = "26px";
   derechaImg.style.width = "22px";
@@ -299,13 +299,13 @@ function agregarControlesPaginacion(posts, position = "bottom") {
     }
   };
   btnDerecha.addEventListener("mouseover", () => {
-    derechaImg.src = "../icon/scrollbar-right-active.svg";
+    derechaImg.src = "./icon/scrollbar-right-active.svg";
   });
   btnDerecha.addEventListener("mouseout", () => {
     derechaImg.src =
       paginaActual === totalPaginas
-        ? "../icon/scrollbar-right-deactivate.svg"
-        : "../icon/scrollbar-right.svg";
+        ? "./icon/scrollbar-right-deactivate.svg"
+        : "./icon/scrollbar-right.svg";
   });
   paginacion.appendChild(btnDerecha);
 

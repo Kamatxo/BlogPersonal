@@ -125,23 +125,23 @@
       "<p>QEMU provides the possibility of downloading, for example, Ubuntu (which is the official download page for Ubuntu ARM Server). You can also download UTM files, which are essentially just the settings for a virtual machine (for example, this one for Windows XP, among others).</p>",
       "<p>The operating systems Ubuntu and Windows ARM can be downloaded from their official pages.</p>",
       "<h6>Ubuntu Server ARM</h6>",
-      "<a href=\"../UTM_en/Descarga de Ubuntu_en.pdf\" target=\"_self\" rel=\"noopener noreferrer\"><img class=\"fakeimg\" src=\"../img/Ubuntu_HTML.jpeg\" alt=\"Ubuntu\"></a>",
-      "<p>Guide to download from official pages <a href=\"../UTM_en/Descarga de Ubuntu_en.pdf\" target=\"_self\"><b>Ubuntu ARM</b></a></p>",
+      "<a href=\"./UTM_en/Descarga de Ubuntu_en.pdf\" target=\"_self\" rel=\"noopener noreferrer\"><img class=\"fakeimg\" src=\"../img/Ubuntu_HTML.jpeg\" alt=\"Ubuntu\"></a>",
+      "<p>Guide to download from official pages <a href=\"./UTM_en/Descarga de Ubuntu_en.pdf\" target=\"_self\"><b>Ubuntu ARM</b></a></p>",
       "<p><b>Why download the ARM64 version instead of the x64?</b></p>",
       "<p>The ARM version, although more complicated to install, is more fluid (on AMD it’s very slow) and much more efficient than the x64 version since it matches the architecture of your system (the Apple M1 chip is ARM64 architecture).</p>",
       "<p>In any case, if you want to download the official Ubuntu x64 version, here is the <a href=\"../UTM/Descarga de Ubuntu AMD.pdf\" target=\"_self\"><b>guide</b></a>, but you will need to verify if the file is not corrupted.</p>",
       "<h6>Windows 11 ARM</h6>",
-      "<a href=\"../UTM_en/Descarga de Windows ARM_en.pdf\" target=\"_self\" rel=\"noopener noreferrer\"><img class=\"fakeimg\" src=\"../img/Windows_HTML.jpeg\" alt=\"Windows\"></a>",
+      "<a href=\"./UTM_en/Descarga de Windows ARM_en.pdf\" target=\"_self\" rel=\"noopener noreferrer\"><img class=\"fakeimg\" src=\"../img/Windows_HTML.jpeg\" alt=\"Windows\"></a>",
       "<p>If you want to install Windows, you can do so from the official Windows Insider page.</p>",
-      "<p>Here is the download guide for <a href=\"../UTM_en/Descarga de Windows ARM_en.pdf\" target=\"_self\"><b>Windows ARM</b></a></p>",
+      "<p>Here is the download guide for <a href=\"./UTM_en/Descarga de Windows ARM_en.pdf\" target=\"_self\"><b>Windows ARM</b></a></p>",
       "<h6>CrystalFetch</h6>",
-      "<a href=\"../UTM_en/Descargar_CrystalFech_en.pdf\" target=\"_self\" rel=\"noopener noreferrer\"><img class=\"fakeimg\" src=\"../img/CrystalFech.jpeg\" alt=\"CrystalFech\"></a>",
+      "<a href=\"./UTM_en/Descargar_CrystalFech_en.pdf\" target=\"_self\" rel=\"noopener noreferrer\"><img class=\"fakeimg\" src=\"../img/CrystalFech.jpeg\" alt=\"CrystalFech\"></a>",
       "<p>You can also download it from the CrystalFetch app.</p>",
-      "<p>Here is the download guide for <a href=\"../UTM_en/Descargar_CrystalFech_en.pdf\" target=\"_self\"><b>Windows ARM via CrystalFetch</b></a></p>",
+      "<p>Here is the download guide for <a href=\"./UTM_en/Descargar_CrystalFech_en.pdf\" target=\"_self\"><b>Windows ARM via CrystalFetch</b></a></p>",
       "<h6>Internet Archive</h6>",
-      "<a href=\"../UTM_en/Descarga de Internet Archive_en.pdf\" target=\"_self\" rel=\"noopener noreferrer\"><img class=\"fakeimg\" src=\"../img/Internet_Archive_HTML.jpeg\" alt=\"Ubuntu logo\"></a>",
+      "<a href=\"./UTM_en/Descarga de Internet Archive_en.pdf\" target=\"_self\" rel=\"noopener noreferrer\"><img class=\"fakeimg\" src=\"../img/Internet_Archive_HTML.jpeg\" alt=\"Ubuntu logo\"></a>",
       "<p>You can download older systems from the <a href=\"https://archive.org\" target=\"_blank\"><b>Internet Archive</b></a>, but you need to verify the file before installing it to ensure it’s not corrupted.</p>",
-      "<p>Here is the download guide for <a href=\"../UTM_en/Descarga de Internet Archive_en.pdf\" target=\"_self\"><b>Internet Archive</b></a></p>",
+      "<p>Here is the download guide for <a href=\"./UTM_en/Descarga de Internet Archive_en.pdf\" target=\"_self\"><b>Internet Archive</b></a></p>",
       "<p></p>"
     ]
   },
@@ -155,15 +155,15 @@
     "description": "Installing Ubuntu ARM Server on UTM Virtual Machine",
     "content": [
       "<p>To install Ubuntu on a Mac with an Apple Silicon chip, it's better to install Ubuntu Server with ARM architecture.</p>",
-      "<p>Guide to download from official pages <a href=\"../UTM_en/Descarga de Ubuntu_en.pdf\" target=\"_self\"><b>Ubuntu ARM</b></a></p>",
+      "<p>Guide to download from official pages <a href=\"./UTM_en/Descarga de Ubuntu_en.pdf\" target=\"_self\"><b>Ubuntu ARM</b></a></p>",
       "<p>This version provides smooth navigation and allows better battery consumption adjustments.</p>",
       "<p>The entire installation process is done through the console, but don’t worry, it’s easy.</p>",
       "<p>At the end of the installation, the graphical mode will be installed, and it will be easier to use.</p>",
       "<p>Finally, we will make some network adjustments to ensure everything works correctly.</p>",
-      "<p>Here are the <a href=\"../UTM_en/Instalación de Ubuntu Server ARM_en.pdf\" target=\"_self\"><b>installation instructions</b></a> for Ubuntu ARM.</p>",
-      "<p>Here is the <a href=\"../UTM_en/UTM ajustes_en.pdf\" target=\"_self\"><b>guide for UTM settings</b></a> and virtual machines.</p>",
+      "<p>Here are the <a href=\"./UTM_en/Instalación de Ubuntu Server ARM_en.pdf\" target=\"_self\"><b>installation instructions</b></a> for Ubuntu ARM.</p>",
+      "<p>Here is the <a href=\"./UTM_en/UTM ajustes_en.pdf\" target=\"_self\"><b>guide for UTM settings</b></a> and virtual machines.</p>",
       "<p>Here is the <a href=\"https://kamatxo.github.io/Video-web/\" target=\"_self\"><b>page with an embedded video</b></a> on how to show the Network Manager to display the network settings in Ubuntu ARM.</p>",
-      "<p>How to share files, <a href=\"../UTM_en/Compartir Carpeta UTM_en.pdf\" target=\"_self\"><b>here</b></a>.</p>"
+      "<p>How to share files, <a href=\"./UTM_en/Compartir Carpeta UTM_en.pdf\" target=\"_self\"><b>here</b></a>.</p>"
     ]
   },
   {
@@ -175,12 +175,12 @@
     "alt": "Windows 11 ARM",
     "description": "Installing Windows 11 ARM on UTM Virtual Machine",
     "content": [
-      "<p>Guide to download from official pages <a href=\"../UTM_en/Descarga de Windows ARM_en.pdf\" target=\"_self\"><b>Windows 11 ARM</b></a></p>",
+      "<p>Guide to download from official pages <a href=\"./UTM_en/Descarga de Windows ARM_en.pdf\" target=\"_self\"><b>Windows 11 ARM</b></a></p>",
       "<p>This version provides smooth navigation and allows better battery consumption adjustments compared to Windows 11 x64.</p>",
       "<p>The installation is straightforward, but there is one step to keep in mind.</p>",
-      "<p>Here are the <a href=\"../UTM_en/Instalacion Windows 11 ARM_en.pdf\" target=\"_self\"><b>installation instructions</b></a> for Windows 11 ARM.</p>",
-      "<p>Here is the <a href=\"../UTM_en/UTM ajustes_en.pdf\" target=\"_self\"><b>guide for UTM settings</b></a> and virtual machines.</p>",
-      "<p>How to share files, <a href=\"../UTM_en/Compartir Carpeta UTM_en.pdf\" target=\"_self\"><b>here</b></a>.</p>"
+      "<p>Here are the <a href=\"./UTM_en/Instalacion Windows 11 ARM_en.pdf\" target=\"_self\"><b>installation instructions</b></a> for Windows 11 ARM.</p>",
+      "<p>Here is the <a href=\"./UTM_en/UTM ajustes_en.pdf\" target=\"_self\"><b>guide for UTM settings</b></a> and virtual machines.</p>",
+      "<p>How to share files, <a href=\"./UTM_en/Compartir Carpeta UTM_en.pdf\" target=\"_self\"><b>here</b></a>.</p>"
     ]
   },
   {
@@ -192,7 +192,7 @@
     "alt": "Installing Windows XP on UTM VM",
     "description": "Follow this quick guide to install Windows XP on UTM, with detailed setup instructions.",
     "content": [
-      "<p>💻 <b>Download the Windows XP ISO file</b> from the internet or use one you already have. <a href=\"../UTM_en/Instalar_Windows_XP_en.pdf\" target=\"_self\"><b>Detailed instructions here</b></a>.</p>",
+      "<p>💻 <b>Download the Windows XP ISO file</b> from the internet or use one you already have. <a href=\"./UTM_en/Instalar_Windows_XP_en.pdf\" target=\"_self\"><b>Detailed instructions here</b></a>.</p>",
       "<p>⚙️ <b>Set up a new virtual machine</b> in UTM, select 'Windows' as the operating system, and allocate resources such as 512MB of RAM and 1 CPU.</p>",
       "<p>📂 <b>Associate the Windows XP ISO</b> with the virtual machine and start the VM. The Windows XP installation will begin automatically.</p>",
       "<p>✅ <b>Once the installation is complete</b>, you can now use Windows XP in your virtual machine!</p>"

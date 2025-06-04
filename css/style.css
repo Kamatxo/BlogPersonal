@@ -2,15 +2,18 @@
   box-sizing: border-box;
 }
 
-.window{
-  background-color: #FDFEFE;
+html {
+  scroll-behavior: smooth;
+}
+
+.window {
+  background-color: #fdfefe;
   margin: 0;
 }
 
 body {
   font-family: Arial;
   padding: 20px;
-
 }
 
 /* Header/Blog Title */
@@ -24,13 +27,26 @@ body {
   -webkit-text-stroke: 2px black;
   color: white;
   word-wrap: break-word;
-  background-image: url(../img/cabecera.png);
+  background-image: url(../img/cabecera.jpeg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: 50% 35%;
   /* filter: grayscale(90%); */
 }
 
+/* barra del search */
+.search-bar {
+  width: 100%;
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.search {
+  flex: 1;
+  max-width: 50%;
+}
 /* Create for p tag */
 p {
   font-family: Chicago;
@@ -41,12 +57,12 @@ p {
 h2 {
   word-wrap: break-word;
 }
-title-bar button.resize{
+title-bar button.resize {
   background-size: 100%, 100%;
 }
 /* Create two unequal columns that floats next to each other */
 /* Left column */
-.leftcolumn { 
+.leftcolumn {
   float: left;
   width: 75%;
   padding-left: 10px;
@@ -67,12 +83,12 @@ title-bar button.resize{
   margin: auto;
   filter: grayscale(100%);
 }
-.fakeimg > a{
+.fakeimg > a {
   color: white;
   text-align: center;
   text-decoration: none;
 }
-.personal{
+.personal {
   border-radius: 3px;
   border: 1px solid black;
   max-width: 350px;
@@ -86,24 +102,24 @@ title-bar button.resize{
   border: 1px solid black;
 }
 
-.card a{
+.card a {
   text-decoration: none;
 }
 
-.card a img{
+.card a img {
   width: 50%;
   margin-left: 25%;
 }
-.entrada{
-    margin-left: 20px;
-    margin-right: 20px;
-    margin-bottom: 20px;
+.entrada {
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-bottom: 20px;
 }
-.shadow{
+.shadow {
   box-shadow: 10px 10px 5px lightgray;
 }
 /* entradas */
-.entrada a img{
+.entrada a img {
   width: 20%;
   margin-left: 1%;
 }
@@ -123,71 +139,165 @@ title-bar button.resize{
   background: #ddd;
   margin-top: 20px;
 }
-.informacion-footer a{
+.informacion-footer a {
   text-decoration: none;
 }
-iframe{
+iframe {
   border: 1px solid black;
   padding: 5px;
-  
 }
-.footer nav{
-        
+
+pre {
+  background-color: #f4f4f4;
+  border: 1px solid #ccc;
+  padding: 10px;
+  font-family: monospace;
+  white-space: pre-wrap;
+  word-wrap: break-word;
+  overflow-x: auto;
+  border-radius: 5px;
+  max-width: 100%;
+  box-sizing: border-box;
+}
+
+.footer nav {
   margin: 0.2em 0;
 }
 
-.footer nav ul{
+.footer nav ul {
   padding-inline-start: 0;
   margin: 0;
   padding: 0;
   list-style: none;
-  display:flex;   
+  display: flex;
 }
-.footer nav ul li{
+.footer nav ul li {
   text-align: center;
-  flex-direction:row;
+  flex-direction: row;
   flex-grow: 1;
 }
-.footer nav ul li a{
-  background-color:white;
+.footer nav ul li a {
+  background-color: white;
   border: 1px solid black;
-  border-radius:50%;
-  box-shadow: 0 0 3px black ;
+  border-radius: 50%;
+  box-shadow: 0 0 3px black;
   text-decoration: none;
   padding: 10px;
-  color:black;
+  color: black;
 }
-.footer nav ul li a:hover{
+.footer nav ul li a:hover {
   background-color: lightgray;
-
 }
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+/* Comportamiento en escritorio: scroll-up va después de los dos */
+.leftcolumn {
+  width: 70%;
+}
+.rightcolumn {
+  width: 30%;
+}
+.scroll-up-wrapper {
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+  padding: 1rem 1rem 0 0;
+  order: 3; /* Se pone al final en escritorio */
+}
+
+#scroll-up-btn {
+  display: inline-block;
+  width: 32px;
+  height: 34px;
+  background-image: url("../icon/scrollbar-up.svg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+#scroll-up-btn:hover {
+  background-image: url("../icon/scrollbar-up-active.svg");
+}
+
+#scroll-down-btn {
+  display: inline-block;
+  width: 32px;
+  height: 34px;
+  background-image: url("../icon/scrollbar-down.svg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+#scroll-down-btn:hover {
+  background-image: url("../icon/scrollbar-down-active.svg");
+}
+
+#scroll-left-btn {
+  display: inline-block;
+  width: 32px;
+  height: 32px;
+  background-image: url("../icon/scrollbar-left.svg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+#scroll-left-btn:hover {
+  background-image: url("../icon/scrollbar-left-active.svg");
+}
+
 /* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other */
 @media screen and (max-width: 800px) {
-  .card{
-    margin:10px;
+  .search {
+    flex: 1;
+    max-width: 75%;
+  }
+  .card {
+    margin: 10px;
   }
 
-  .card a img{
+  .card a img {
     width: 100%;
     margin: 0;
   }
 
-  .entrada a img{
+  .entrada a img {
     width: 100%;
     margin: 0;
   }
-  
+
   .container {
     width: 100%;
     margin: auto;
   }
-  .leftcolumn, .rightcolumn { 
+  .leftcolumn,
+  .rightcolumn {
     width: 100%;
     padding: 0;
   }
 
-  iframe{
+  iframe {
     width: 100%;
     margin: auto;
+  }
+
+  .leftcolumn,
+  .rightcolumn,
+  .scroll-up-wrapper {
+    width: 100%;
+  }
+
+  .leftcolumn {
+    order: 1;
+  }
+
+  .scroll-up-wrapper {
+    order: 2; /* Va justo después de los posts */
+  }
+
+  .rightcolumn {
+    order: 3;
   }
 }

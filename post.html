@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://unpkg.com/@sakun/system.css" />
+  <link rel="stylesheet" href="../css/style.css" />
+  <title>Blog Developer</title>
+</head>
+
+<body>
+  <div class="window shadow">
+    <!-- Barra de título -->
+    <div class="title-bar">
+      <button aria-label="Close" class="close" onclick="back()"></button>
+      <h1 class="title">Blog Developer</h1>
+    </div>
+    <div class="separator"></div>
+
+    <!-- Contenedor de la entrada del post -->
+    <div class="entrada" id="entrada-post">
+      <!-- Aquí se cargará dinámicamente el contenido del post -->
+    </div>
+
+    <div class="scroll-up-wrapper" style="width: 100%; padding: 1rem; display: flex; justify-content: flex-end;">
+      <a onclick="back()" id="scroll-left-btn" class="tecla-retro" style="cursor: pointer; margin-right: 1rem;"></a>
+    </div>
+
+  </div>
+
+  <!-- Script que maneja la carga dinámica del post -->
+  <script type="module" src="js/translations.js"></script>
+  <script type="module" src="js/post.js"></script>
+  <script src="./js/acciones.js"></script>
+</body>
+
+</html>

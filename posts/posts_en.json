@@ -105,9 +105,9 @@
       "<p>Well, enough talk, let’s get to work</p>",
       "<h4><b>Installing UTM</b></h4>",
       "<p>First, download the UTM.dmg file from the main page of <a href=\"https://mac.getutm.app\"><b>UTM</b></a> or if you want, directly from the <a href=\"https://github.com/utmapp/UTM/releases/latest/download/UTM.dmg\"><b>link here</b></a>.</p>",
-      "<p>I’ve left <a href=\"../UTM_en/Instalacion de UTM_en.pdf\" target=\"_self\"><b>installation instructions here</b></a>.</p>",
-      "<p>I’ve left <a href=\"../UTM_en/Actualizacion_UTM_en.pdf\" target=\"_self\"><b>manual update instructions here</b></a>.</p>",
-      "<p>I’ve left <a href=\"../UTM_en/UTM ajustes_en.pdf\" target=\"_self\"><b>settings guide here</b></a>.</p>"
+      "<p>I’ve left <a href=\"./UTM_en/Instalacion de UTM_en.pdf\" target=\"_self\"><b>installation instructions here</b></a>.</p>",
+      "<p>I’ve left <a href=\"./UTM_en/Actualizacion_UTM_en.pdf\" target=\"_self\"><b>manual update instructions here</b></a>.</p>",
+      "<p>I’ve left <a href=\"./UTM_en/UTM ajustes_en.pdf\" target=\"_self\"><b>settings guide here</b></a>.</p>"
     ]
   },
   {

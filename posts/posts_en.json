@@ -160,7 +160,7 @@
       "<p>The entire installation process is done through the console, but don’t worry, it’s easy.</p>",
       "<p>At the end of the installation, the graphical mode will be installed, and it will be easier to use.</p>",
       "<p>Finally, we will make some network adjustments to ensure everything works correctly.</p>",
-      "<p>Here are the <a href=\"./UTM_en/Instalación de Ubuntu Server ARM_en.pdf\" target=\"_self\"><b>installation instructions</b></a> for Ubuntu ARM.</p>",
+      "<p>Here are the <a href=\"./UTM_en/Instalacion de Ubuntu Server ARM_en.pdf\" target=\"_self\"><b>installation instructions</b></a> for Ubuntu ARM.</p>",
       "<p>Here is the <a href=\"./UTM_en/UTM ajustes_en.pdf\" target=\"_self\"><b>guide for UTM settings</b></a> and virtual machines.</p>",
       "<p>Here is the <a href=\"https://kamatxo.github.io/Video-web/\" target=\"_self\"><b>page with an embedded video</b></a> on how to show the Network Manager to display the network settings in Ubuntu ARM.</p>",
       "<p>How to share files, <a href=\"./UTM_en/Compartir Carpeta UTM_en.pdf\" target=\"_self\"><b>here</b></a>.</p>"

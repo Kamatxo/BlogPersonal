@@ -129,7 +129,7 @@
       "<p>Guide to download from official pages <a href=\"./UTM_en/Descarga de Ubuntu_en.pdf\" target=\"_self\"><b>Ubuntu ARM</b></a></p>",
       "<p><b>Why download the ARM64 version instead of the x64?</b></p>",
       "<p>The ARM version, although more complicated to install, is more fluid (on AMD it’s very slow) and much more efficient than the x64 version since it matches the architecture of your system (the Apple M1 chip is ARM64 architecture).</p>",
-      "<p>In any case, if you want to download the official Ubuntu x64 version, here is the <a href=\"./UTM/Descarga de Ubuntu AMD.pdf\" target=\"_self\"><b>guide</b></a>, but you will need to verify if the file is not corrupted.</p>",
+      "<p>In any case, if you want to download the official Ubuntu x64 version, here is the <a href=\"./UTM_en/Descarga de Ubuntu AMD_en.pdf\" target=\"_self\"><b>guide</b></a>, but you will need to verify if the file is not corrupted.</p>",
       "<h6>Windows 11 ARM</h6>",
       "<a href=\"./UTM_en/Descarga de Windows ARM_en.pdf\" target=\"_self\" rel=\"noopener noreferrer\"><img class=\"fakeimg\" src=\"./img/Windows_HTML.jpeg\" alt=\"Windows\"></a>",
       "<p>If you want to install Windows, you can do so from the official Windows Insider page.</p>",

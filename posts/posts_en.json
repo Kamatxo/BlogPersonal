@@ -264,7 +264,7 @@
     "<p>If you have a video in AVI format and want to convert it to MP4, use:</p>",
     "<pre><code>ffmpeg -i input.avi -c:v libx264 -c:a aac output.mp4</code></pre>",
     "<p>This will convert the AVI file to MP4 using the H.264 video codec and AAC audio codec.</p>",
-    "<p>To change the resolution of the video, for example to 1280x720, add the <code>-s</code> parameter:</p>",
+    "<p>To change the resolution of the video, for example to 1280x720, add the parameter: </p>",
     "<pre><code>ffmpeg -i input.avi -c:v libx264 -c:a aac -s 1280x720 output.mp4</code></pre>",
     "<p><b>🖼️ Converting Image Formats</b></p>",
     "<p>If you have an image in PNG format and want to convert it to JPEG, use:</p>",

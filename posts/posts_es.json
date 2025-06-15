@@ -241,7 +241,7 @@
   "title": "Transformación de sonido, video e imágenes con FFmpeg",
   "subtitle": "Transforma de una manera sencilla tus archivos de sonido, video e imágenes con FFmpeg",
   "date": "Jun 15, 2025",
-  "image": "./img/fffmpeg_transform.jpeg",
+  "image": "./img/ffmpeg_transformacion.jpeg",
   "alt": "Transformación de sonido, video e imágenes con FFmpeg",
   "description": "Aprende a transformar archivos de sonido, video e imágenes con FFmpeg, una herramienta poderosa y versátil.",
   "content": [
@@ -264,7 +264,7 @@
     "<p>Si tienes un video en formato AVI y quieres convertirlo a MP4, puedes usar:</p>",
     "<pre><code>ffmpeg -i input.avi -c:v libx264 -c:a aac output.mp4</code></pre>",
     "<p>Esto convertirá el archivo AVI a MP4 usando el códec de video H.264 y el códec de audio AAC.</p>",
-    "<p>Si quieres cambiar la resolución del video, por ejemplo a 1280x720, puedes añadir el parámetro <code>-s</code>:</p>",
+    "<p>Si quieres cambiar la resolución del video, por ejemplo a 1280x720, puedes añadir el parámetro:</p>",
     "<pre><code>ffmpeg -i input.avi -c:v libx264 -c:a aac -s 1280x720 output.mp4</code></pre>",
     "<p><b>🖼️ Cambiar formato de imagen</b></p>",
     "<p>Si tienes una imagen en formato PNG y quieres convertirla a JPEG, puedes usar:</p>",

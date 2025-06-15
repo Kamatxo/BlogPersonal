@@ -277,7 +277,9 @@
     "<p>FFmpeg es una herramienta increíblemente versátil que te permite transformar archivos de sonido, video e imágenes de manera sencilla y eficiente. Con unos pocos comandos, puedes convertir formatos, cambiar resoluciones y ajustar la calidad de tus archivos multimedia.</p>",
     "<p>Ya sea que quieras extraer canciones de un CD, convertir videos a formatos más comunes o cambiar el tamaño de imágenes, FFmpeg tiene las herramientas necesarias para hacerlo. ¡Explora sus capacidades y mejora tu flujo de trabajo multimedia!</p>",
     "<p><b>💡 Consejo adicional:</b></p>",
-    "<p>Si no recuerdas los comandos exactos o quieres explorar más opciones, puedes usar una inteligencia artificial como ChatGPT para ayudarte a generar, ajustar o personalizar comandos según tus necesidades. Solo describe lo que quieres hacer, ¡y obtendrás una solución rápida!</p>"
+    "<p>Si no recuerdas los comandos exactos o quieres explorar más opciones, puedes usar una inteligencia artificial como ChatGPT para ayudarte a generar, ajustar o personalizar comandos según tus necesidades. Solo describe lo que quieres hacer, ¡y obtendrás una solución rápida!</p>",
+    "<p>También puedes instalar FFmpeg en Windows 11 usando el gestor de paquetes <code>winget</code>. Solo necesitas ejecutar el siguiente comando en el terminal (CMD):</p>",
+    "<pre><code>winget install ffmpeg</code></pre>"
   ]
   }
 ]

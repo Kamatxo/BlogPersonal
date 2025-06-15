@@ -278,7 +278,7 @@
     "<p>Whether you're extracting tracks from a CD, converting videos to more common formats, or resizing images, FFmpeg has the tools to get the job done. Explore its capabilities and enhance your multimedia workflow!</p>",
     "<p><b>💡 Bonus Tip:</b></p>",
     "<p>If you don't remember the exact commands or want to explore additional options, you can use an AI tool like ChatGPT to help you generate, adjust, or customize commands based on your needs. Just describe what you want to do and get a fast solution!</p>",
-    "<p>You can also install FFmpeg on Windows 11 using the <code>winget</code> package manager. Just run the following command in the terminal (CMD):</p>",
+    "<p>You can also install FFmpeg on Windows 11 using the winget package manager. Just run the following command in the terminal (CMD):</p>",
     "<pre><code>winget install ffmpeg</code></pre>"
     ]
   }

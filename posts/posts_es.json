@@ -256,7 +256,7 @@
     "<pre><code>ffmpeg -version</code></pre>",
     "<p><b>🎵 Cambiar formato de sonido</b></p>",
     "<p>Si tienes un CD de música y quieres extraer las canciones para escucharlas en otros dispositivos, puedes convertirlas a MP3 con el siguiente comando:</p>",
-    "<pre><code>ffmpeg -i /dev/cdrom -acodec libmp3lame -ab 192k output.mp3</code></pre>",
+    "<pre><code>for file in *.wav; do ffmpeg -i \"$file\" -acodec libmp3lame -ab 192k \"${file%.wav}.mp3\"; done</code></pre>",
     "<p>Si tienes un archivo de audio en formato WAV y quieres convertirlo a MP3, puedes usar:</p>",
     "<pre><code>ffmpeg -i input.wav -acodec libmp3lame -ab 192k output.mp3</code></pre>",
     "<p>Esto convertirá el archivo WAV a MP3 con una tasa de bits de 192 kbps.</p>",

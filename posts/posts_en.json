@@ -241,7 +241,7 @@
   "title": "Transforming Audio, Video, and Images with FFmpeg",
   "subtitle": "Easily convert your audio, video, and image files using FFmpeg",
   "date": "Jun 15, 2025",
-  "image": "./img/ffmpeg_transformacion.jpeg",
+  "image": "./img/ffmpeg_transform.jpeg",
   "alt": "Transforming audio, video, and images with FFmpeg",
   "description": "Learn how to convert audio, video, and image files using FFmpeg, a powerful and versatile tool.",
   "content": [

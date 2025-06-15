@@ -249,7 +249,7 @@
     "<p>FFmpeg is a powerful and versatile command-line tool for processing video, audio, and images.</p>",
     "<p>More information on its official website: <a href=\"https://ffmpeg.org/\" target=\"_blank\" rel=\"noopener noreferrer\">ffmpeg.org</a>.</p>",
     "<p><b>🛠️ Installing FFmpeg on macOS</b></p>",
-    "<p>If you haven't installed Homebrew yet, check out our guide: <a href=\"./post.html?id=entrada02&lang=en\" target=\"_self\" rel=\"noopener noreferrer\">Installing Homebrew on Mac</a>.</p>",
+    "<p>If you haven't installed Homebrew yet, check out our guide: <a href=\"./post.html?id=entry02&lang=en\" target=\"_self\" rel=\"noopener noreferrer\">Installing Homebrew on Mac</a>.</p>",
     "<p>Once you have Homebrew, installing FFmpeg is as simple as running:</p>",
     "<pre><code>brew install ffmpeg</code></pre>",
     "<p>Verify the installation with:</p>",

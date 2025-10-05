@@ -281,5 +281,125 @@
     "<p>You can also install FFmpeg on Windows 11 using the winget package manager. Just run the following command in the terminal (open CMD as administrator):</p>",
     "<pre><code>winget install ffmpeg</code></pre>"
     ]
-  }
+  },
+  {
+  "id": "entry10",
+  "title": "yt-dlp",
+  "subtitle": "Download YouTube and other platform videos from the terminal using yt-dlp",
+  "date": "Oct 05, 2025",
+  "image": "./img/yt-dlp.svg",
+  "alt": "Video downloading with yt-dlp from the terminal",
+  "description": "Learn how to download videos, playlists, or audio from YouTube and many other platforms using yt-dlp — a modern, powerful command-line tool.",
+  "content": [
+    "<p><b>📦 What is yt-dlp?</b></p>",
+    "<p><code>yt-dlp</code> is a command-line tool that lets you download videos, audio, or playlists from YouTube and many other platforms. It’s an improved and actively maintained fork of <code>youtube-dl</code>.</p>",
+    "<p>More info and documentation available on its official GitHub repo: <a href=\"https://github.com/yt-dlp/yt-dlp\" target=\"_blank\" rel=\"noopener noreferrer\">github.com/yt-dlp/yt-dlp</a>.</p>",
+
+    "<p><b>🛠️ Installing yt-dlp on macOS</b></p>",
+    "<p>If you have Homebrew installed, you can easily add <code>yt-dlp</code> by running:</p>",
+    "<pre><code>brew install yt-dlp</code></pre>",
+    "<p>Verify the installation with:</p>",
+    "<pre><code>yt-dlp --version</code></pre>",
+    "<p>This will show the installed version number, confirming everything’s ready to go.</p>",
+
+    "<p><b>🪟 Installation on Windows</b></p>",
+    "<p>On Windows 11, you can use the <code>winget</code> package manager to install it:</p>",
+    "<pre><code>winget install yt-dlp</code></pre>",
+    "<p>You can also download the executable directly from its GitHub releases page if you prefer using it without installation.</p>",
+
+    "<p><b>▶️ Downloading a YouTube video</b></p>",
+    "<p>To download a video in the best available quality, simply run:</p>",
+    "<pre><code>yt-dlp \"https://www.youtube.com/watch?v=XXXXXXXXXXX\"</code></pre>",
+    "<p>This will download the video using the best possible combination of video and audio quality.</p>",
+
+    "<p><b>🎧 Downloading only the audio (e.g., in MP3 format)</b></p>",
+    "<p>If you only want the audio from a video, use the <code>--extract-audio</code> flag and specify the format with <code>--audio-format</code>:</p>",
+    "<pre><code>yt-dlp -x --audio-format mp3 \"https://www.youtube.com/watch?v=XXXXXXXXXXX\"</code></pre>",
+    "<p>This will extract the audio and convert it to MP3 automatically using FFmpeg (if installed).</p>",
+
+    "<p><b>📜 Downloading a playlist</b></p>",
+    "<p>Want to download all videos from a playlist? Just pass the full playlist link:</p>",
+    "<pre><code>yt-dlp \"https://www.youtube.com/playlist?list=XXXXXXXXXXX\"</code></pre>",
+    "<p>yt-dlp will grab every video from the playlist, keeping the titles and original order.</p>",
+
+    "<p><b>🎛️ Customizing file names</b></p>",
+    "<p>You can define the output name format using the <code>-o</code> option. For example:</p>",
+    "<pre><code>yt-dlp -o \"%(title)s.%(ext)s\" \"https://www.youtube.com/watch?v=XXXXXXXXXXX\"</code></pre>",
+    "<p>This will save the file using the video’s title and its original extension.</p>",
+
+    "<p><b>💾 Downloading subtitles</b></p>",
+    "<p>If you want to grab subtitles too, add the <code>--write-subs</code> flag. To download them in English, use:</p>",
+    "<pre><code>yt-dlp --write-subs --sub-lang en \"https://www.youtube.com/watch?v=XXXXXXXXXXX\"</code></pre>",
+    "<p>If you also want to embed the subtitles directly into the video file, add <code>--embed-subs</code>.</p>",
+
+    "<p><b>💡 Pro tip:</b></p>",
+    "<p>You can combine yt-dlp with FFmpeg to convert, merge, or trim downloaded files. For instance, download audio as WAV and then convert to MP3, or resize a video after downloading it.</p>",
+
+    "<p><b>🎯 Conclusion</b></p>",
+    "<p>yt-dlp is an incredibly useful and flexible tool for downloading multimedia content from multiple platforms. Whether you want to save videos for offline viewing, extract audio for your playlists, or automate your downloads, <code>yt-dlp</code> does it all right from the terminal.</p>",
+    "<p>With a single line of code, you can control quality, format, subtitles, and more. Explore its options and make your multimedia workflow even more powerful!</p>",
+
+    "<p><b>💬 Bonus tip:</b></p>",
+    "<p>If you can’t remember the exact commands, ask an AI like ChatGPT to generate them for you — just say something like “I want to download the audio from this video as MP3,” and you’ll get the exact line ready to paste into your terminal.</p>",
+    "<p>Always remember to respect the platform’s terms of service and copyright laws when downloading content.</p>"
+  ]
+},
+{
+  "id": "entry11",
+  "title": "Retro Virtual Machine",
+  "subtitle": "Emulate classic computers like the ZX Spectrum and Amstrad CPC with Retro Virtual Machine",
+  "date": "Oct 05, 2025",
+  "image": "./img/retro_machine.jpg",
+  "alt": "Retro Virtual Machine emulator interface showing a ZX Spectrum",
+  "description": "Discover Retro Virtual Machine — a modern, cross-platform emulator that brings classic computers like the ZX Spectrum and Amstrad CPC back to life with authentic and elegant accuracy.",
+  "content": [
+    "<p><b>🕹️ What is Retro Virtual Machine?</b></p>",
+    "<p><b>Retro Virtual Machine (RVM)</b> is a classic computer emulator carefully designed to offer a realistic yet modern experience. It emulates systems such as the <b>ZX Spectrum</b> and <b>Amstrad CPC</b>, faithfully reproducing both their hardware and their visual and sound behavior.</p>",
+    "<p>What makes it stand out is its interface: clean, fluid, and full of subtle details that take you straight back to the 80s — but with all the conveniences of the 21st century.</p>",
+    "<p>You can learn more or download it from its official website: <a href=\"https://www.retrovirtualmachine.org/\" target=\"_blank\" rel=\"noopener noreferrer\">retrovirtualmachine.org</a>.</p>",
+
+    "<p><b>🧩 Key features</b></p>",
+    "<p>• Compatibility with <b>ZX Spectrum</b> (16K, 48K, 128K, +2A, +3) and <b>Amstrad CPC</b> (464, 6128).</p>",
+    "<p>• Modern interface with floating windows and 3D views of the machines.</p>",
+    "<p>• Support for tapes, disks, snapshots, and instant loading.</p>",
+    "<p>• Record video and audio directly from the emulator.</p>",
+    "<p>• Session synchronization for machine states and settings.</p>",
+    "<p>• Accurate emulation of original sound, color, and timing.</p>",
+
+    "<p><b>💻 Installation on macOS</b></p>",
+    "<p>The easiest way to install Retro Virtual Machine on macOS is by downloading the package from its official website:</p>",
+    "<pre><code>https://www.retrovirtualmachine.org/download</code></pre>",
+    "<p>Simply open the .dmg file and drag the app into your <b>Applications</b> folder. Ready to go!</p>",
+    "<p>Another way to install Retro Virtual Machine on macOS is by using Homebrew. Just run the following command in the terminal:</p>",
+    "<pre><code>brew install --cask retro-virtual-machine</code></pre>",
+    "<p>This will automatically download and install the latest available version of RVM on your system.</p>",
+
+    "<p><b>🪟 Installation on Windows</b></p>",
+    "<p>On Windows, just download the installer from the same page and follow the setup steps:</p>",
+    "<pre><code>RetroVirtualMachineSetup.exe</code></pre>",
+    "<p>The program is fully portable, so you can also run it without installation if you prefer.</p>",
+
+    "<p><b>🎮 Loading a tape or a game</b></p>",
+    "<p>Once RVM is open, you can drag and drop a tape file (<code>.tzx</code> or <code>.tap</code>) or disk file (<code>.dsk</code>) directly onto the emulator window. It will automatically detect the machine type and begin loading.</p>",
+    "<p>You can also use the top menu to switch models or insert virtual media.</p>",
+
+    "<p><b>📼 Saving and restoring game states</b></p>",
+    "<p>Retro Virtual Machine lets you save the exact state of the system at any time. Just press <b>CMD + S</b> (on Mac) or <b>Ctrl + S</b> (on Windows) to create a snapshot, and load it later with <b>CMD + O</b> or <b>Ctrl + O</b>.</p>",
+    "<p>This is perfect for tough games or continuing your BASIC programming experiments exactly where you left off.</p>",
+
+    "<p><b>🔊 Recording audio and video</b></p>",
+    "<p>Want to share your gameplay or tutorials? RVM can record both audio and video directly. Simply enable recording from the top menu and export your results as MP4 or WAV files.</p>",
+
+    "<p><b>🧠 Developer mode</b></p>",
+    "<p>If you enjoy programming in assembly or creating retro demos, RVM includes powerful debugging tools — memory inspection, breakpoints, and real-time Z80 control. Perfect for retro scene developers!</p>",
+
+    "<p><b>🎯 Conclusion</b></p>",
+    "<p>Retro Virtual Machine isn’t just an emulator — it’s a nostalgic experience, thoughtfully crafted for those who grew up with 8-bit computers or anyone curious about that golden age of computing.</p>",
+    "<p>Its blend of technical precision, modern interface, and ease of use makes it one of the best ways to enjoy the ZX Spectrum and Amstrad CPC on your current computer.</p>",
+
+    "<p><b>💡 Final tip:</b></p>",
+    "<p>If you’d like to try classic games or explore historical software, visit sites like <a href=\"https://www.worldofspectrum.org/\" target=\"_blank\" rel=\"noopener noreferrer\">World of Spectrum</a>, <a href=\"https://cpcrulez.fr/\" target=\"_blank\" rel=\"noopener noreferrer\">CPC Rulez</a>, or <a href=\"https://archive.org/\" target=\"_blank\" rel=\"noopener noreferrer\">Internet Archive</a>, where you’ll find thousands of titles ready to download and use with RVM.</p>",
+    "<br><a><img class=\"fakeimg\" src=\"./img/abadia.jpg\" alt=\"Ubuntu\"></a>"
+  ]
+}
 ]

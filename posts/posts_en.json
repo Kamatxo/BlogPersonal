@@ -401,5 +401,79 @@
     "<p>If you’d like to try classic games or explore historical software, visit sites like <a href=\"https://www.worldofspectrum.org/\" target=\"_blank\" rel=\"noopener noreferrer\">World of Spectrum</a>, <a href=\"https://cpcrulez.fr/\" target=\"_blank\" rel=\"noopener noreferrer\">CPC Rulez</a>, or <a href=\"https://archive.org/\" target=\"_blank\" rel=\"noopener noreferrer\">Internet Archive</a>, where you’ll find thousands of titles ready to download and use with RVM.</p>",
     "<br><a><img class=\"fakeimg\" src=\"./img/abadia.jpg\" alt=\"Ubuntu\"></a>"
   ]
+},
+{
+  "id": "entry12",
+  "title": "The Emulation Station",
+  "subtitle": "Play retro classics directly in your browser thanks to Internet Archive",
+  "date": "Apr 28, 2025",
+  "image": "https://archive.org/services/img/monkey_dos",
+  "alt": "The Emulation Station interface on Internet Archive showing retro games in the browser",
+  "description": "Discover The Emulation Station by Internet Archive, a collection that lets you play thousands of classic console and PC games directly in your browser, with no installation required.",
+  "content": [
+    "<p><b>🕹️ What is The Emulation Station?</b></p>",
+    "<p><b>The Emulation Station</b> is an amazing collection within Internet Archive that allows you to play classic video games directly in your browser, without needing to install emulators or download additional files.</p>",
+    "<p>Thanks to modern technologies like JavaScript-based emulation, you can relive historic titles from multiple platforms with just a click.</p>",
+    "<p>You can explore the collection here: <a href=\"https://archive.org/details/emulation?tab=collection\" target=\"_blank\" rel=\"noopener noreferrer\">The Emulation Station on Internet Archive</a>.</p>",
+
+    "<p><b>🎮 What kind of games can you find?</b></p>",
+    "<p>The collection is massive and spans multiple systems and eras:</p>",
+    "<p>• Games from classic consoles like NES, SNES, Sega Genesis, and PlayStation.</p>",
+    "<p>• Titles from old computers such as MS-DOS, Windows 3.x, and Windows 95.</p>",
+    "<p>• Historical software and interactive applications.</p>",
+    "<p>• Arcade and coin-op games.</p>",
+    "<p>• Educational and shareware titles from the 80s and 90s.</p>",
+    "<p>All of this accessible without leaving your browser.</p>",
+
+    "<p><b>⚙️ How does it work?</b></p>",
+    "<p>When you open a game, Internet Archive automatically loads an emulator in the background (based on projects like DOSBox or MAME adapted for the web).</p>",
+    "<p>The system emulates the original hardware, allowing you to interact as if you were using the real machine.</p>",
+    "<p>Additionally, many titles come pre-configured, avoiding technical complications.</p>",
+
+    "<p><b>🖥️ Browser experience</b></p>",
+    "<p>One of the biggest advantages is convenience:</p>",
+    "<p>• No installation required.</p>",
+    "<p>• Works on Windows, macOS, and Linux.</p>",
+    "<p>• Compatible with most modern browsers.</p>",
+    "<p>• Allows gameplay even on low-end devices.</p>",
+    "<p>However, performance may vary depending on your system and browser.</p>",
+
+    "<p><b>⌨️ Controls and configuration</b></p>",
+    "<p>Games are usually mapped automatically to the keyboard, although many allow custom control configurations or the use of compatible controllers.</p>",
+    "<p>For older PC games, you can interact with keyboard and mouse just like on the original system.</p>",
+
+    "<p><b>💾 Saving your progress</b></p>",
+    "<p>Some emulators allow you to save your game state directly in the browser using local storage.</p>",
+    "<p>This means you can continue your progress later, although not all games support this feature.</p>",
+
+    "<p><b>📚 Digital preservation</b></p>",
+    "<p>Beyond entertainment, The Emulation Station has enormous historical value. Internet Archive works to preserve software that might otherwise be lost over time.</p>",
+    "<p>This includes games, operating systems, and applications that defined an era in computing and digital entertainment.</p>",
+
+    "<p><b>⚠️ Limitations</b></p>",
+    "<p>Although it’s a fantastic tool, it does have some limitations:</p>",
+    "<p>• Some games may have performance issues.</p>",
+    "<p>• Not all titles are complete or perfectly configured.</p>",
+    "<p>• The experience is not always 100% faithful to the original hardware.</p>",
+    "<p>Still, for a quick and accessible experience, it’s more than enough.</p>",
+
+    "<p><b>🎯 Conclusion</b></p>",
+    "<p>The Emulation Station is a direct gateway to the past of video games and computing, accessible to anyone with a browser.</p>",
+    "<p>Whether for nostalgia or curiosity, it offers a simple and legal way to explore thousands of classic titles without technical hassle.</p>",
+    "<p>Perfect for both veteran players and new generations who want to discover how it all began.</p>",
+    "<p>Hope you enjoy it!</p>",
+
+    "<p><b>💡 Final tip:</b></p>",
+    "<p>Try different systems and games, especially MS-DOS or classic Windows titles, where you’ll find true hidden gems. And if you're looking for a more advanced experience, you can always combine this with local emulators like Retro Virtual Machine.</p>",
+
+    "<p>Monkey Island</p>",
+    "<br><a href=\"https://archive.org/details/monkey_dos\"><img class=\"fakeimg\" src=\"https://archive.org/serve/monkey_dos/bandicam%202020-12-13%2020-44-40-725.jpg\" alt=\"Browser emulation Monkey Island\"></a>",
+
+    "<p>Doom</p>",
+    "<br><a href=\"https://archive.org/details/msdos_Wolfenstein_3D_1992#\"><img class=\"fakeimg\" src=\"https://archive.org/serve/msdos_Wolfenstein_3D_1992/Wolfenstein_3D_1992_screenshot.gif\" alt=\"Browser emulation Doom\"></a>",
+
+    "<p>Simon the Sorcerer</p>",
+    "<br><a href=\"https://archive.org/details/msdos_Simon_the_Sorcerer_1993\"><img class=\"fakeimg\" src=\"https://archive.org/services/img/msdos_Simon_the_Sorcerer_1993\" alt=\"Browser emulation Simon the Sorcerer\"></a>"
+  ]
 }
 ]

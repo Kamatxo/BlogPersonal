@@ -6,5 +6,6 @@ function back(){
     // localStorage.setItem("lang", currentLang_action);
     
     // window.location.href = "../index.html"; // Redirigir a la página principal
-    window.history.back();
+    // window.history.back();
+    window.location.replace("./index.html");
 }
